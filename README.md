@@ -14,7 +14,7 @@ Este notebook analisa a evolução da porcentagem de pessoas **sem nenhuma escol
 - 📈 Resultado: Gráfico de barras com a comparação percentual
 
 ### 📉 Comparativo: Percentual de pessoas sem instrução (2016 x 2023)
-![Gráfico comparativo - Sem instrução](comparativo_sem_instrucao.png)
+![Gráfico comparativo - Sem instrução](notebooks/comparativo_sem_instrucao.png)
 
 ---
 
@@ -27,14 +27,13 @@ Este notebook foca no percentual de pessoas com **nível superior completo** em 
 - 🔍 Objetivo: Visualizar quais estados têm maior proporção de pessoas com ensino superior completo
 
 ### 🎓 Percentual da população com Ensino Superior completo (2023)
-![Gráfico - Escolaridade Superior](escolaridade_superior.png)
+![Gráfico - Escolaridade Superior](notebooks/escolaridade_superior.png)
 
 ---
 
 ## 📁 Organização do repositório
 
 📂 notebooks/ ┣ 📂 dados/ → Planilha original do IBGE (.xls) ┣ 📜 escolaridade_superior-checkpoint.ipynb ┣ 📜 Comparativo_sem_instrucao_2023x2016-checkpoint.ipynb ┣ 📊 comparativo_sem_instrucao.png ┗ 📊 escolaridade_superior.png
-
 
 ---
 
@@ -51,3 +50,4 @@ Sinta-se à vontade para sugerir melhorias ou propor novos tipos de análise com
 ---
 
 Feito com 💙 por [sueling13](https://github.com/sueling13)
+
