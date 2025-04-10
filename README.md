@@ -10,7 +10,7 @@ Este repositório contém dois projetos de análise de dados baseados na Tabela 
 Visualizar a distribuição percentual da população com nível superior completo em todos os estados brasileiros no ano de 2023.
 
 **Arquivo:**  
-📍 `notebooks/escolaridade_superior.ipynb`
+📍 `notebooks/escolaridade_superior-checkpoint.ipynb`
 
 **Dados utilizados:**  
 📄 Tabela 4.9 – Nível de instrução da população residente por situação do domicílio e unidade da federação (IBGE - 2023)
