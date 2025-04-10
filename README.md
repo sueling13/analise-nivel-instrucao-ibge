@@ -1,67 +1,53 @@
-# 📊 Análise do Nível de Instrução no Brasil (IBGE)
+# 📊 Análise do Nível de Instrução no Brasil — IBGE (2016 x 2023)
 
-Este repositório contém dois projetos de análise de dados baseados na Tabela 4.9 do IBGE, com foco em indicadores de escolaridade no Brasil entre os anos de 2016 e 2023.
-
----
-
-## 🧠 Projeto 1 – Escolaridade Superior por UF (2023)
-
-**Objetivo:**  
-Visualizar a distribuição percentual da população com nível superior completo em todos os estados brasileiros no ano de 2023.
-
-**Arquivo:**  
-📍 `notebooks/escolaridade_superior-checkpoint.ipynb`
-
-**Dados utilizados:**  
-📄 Tabela 4.9 – Nível de instrução da população residente por situação do domicílio e unidade da federação (IBGE - 2023)
-
-**Saída gerada:**  
-📊 Gráfico de barras com o percentual de pessoas com ensino superior por UF  
-🖼️ Imagem: `notebooks/escolaridade_superior.png`
+Este repositório contém dois projetos de análise de dados com foco na **escolaridade da população brasileira**, utilizando dados públicos do IBGE extraídos da Tabela 4.9.
 
 ---
 
-## 📉 Projeto 2 – Comparativo "Sem Instrução" (2016 x 2023)
+## 🧠 Projeto 1: Comparativo de pessoas **sem instrução** (2016 x 2023)
 
-**Objetivo:**  
-Comparar o percentual de pessoas sem instrução entre os anos de 2016 e 2023 para cada estado, destacando onde houve melhora ou piora.
+Este notebook analisa a evolução da porcentagem de pessoas **sem nenhuma escolaridade formal** no Brasil e por unidade da federação, comparando os anos de 2016 e 2023.
 
-**Arquivo:**  
-📍 `notebooks/comparativo_sem_instrucao.ipynb`
+- 💾 Fonte: IBGE - Tabela 4.9 (Nível de Instrução por UF)
+- 🛠️ Ferramentas: Python, Pandas, Matplotlib, Seaborn
+- 🔍 Objetivo: Verificar onde houve melhora ou piora nesse indicador
+- 📈 Resultado: Gráfico de barras com a comparação percentual
 
-**Dados utilizados:**  
-📄 Tabela 4.9 – Nível de instrução da população residente (IBGE - 2016 e 2023)
-
-**Saídas geradas:**  
-- Tabela com os percentuais de "sem instrução" por UF em 2016 e 2023  
-- Cálculo da diferença percentual entre os anos  
-- 📊 Gráfico comparativo visualizando a variação por estado  
-- 🖼️ Imagem: `notebooks/amapa_sem_instrucao_comparativo.png`
+### 📉 Comparativo: Percentual de pessoas sem instrução (2016 x 2023)
+![Gráfico comparativo - Sem instrução](comparativo_sem_instrucao.png)
 
 ---
 
-## 💾 Dados
+## 🎓 Projeto 2: Percentual da população com **Ensino Superior completo** (2023)
 
-Os dados utilizados estão disponíveis na pasta:  
-📁 `notebooks/dados/Tabela_4.9_NivelInstru_Geo.xls`
+Este notebook foca no percentual de pessoas com **nível superior completo** em cada estado brasileiro no ano de 2023.
 
-Fonte: [https://www.ibge.gov.br](https://www.ibge.gov.br)
+- 💾 Fonte: IBGE - Tabela 4.9 (Nível de Instrução por UF)
+- 🛠️ Ferramentas: Python, Pandas, Matplotlib, Seaborn
+- 🔍 Objetivo: Visualizar quais estados têm maior proporção de pessoas com ensino superior completo
 
----
-
-## 🛠️ Tecnologias utilizadas
-
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+### 🎓 Percentual da população com Ensino Superior completo (2023)
+![Gráfico - Escolaridade Superior](escolaridade_superior.png)
 
 ---
 
-## ✍️ Autora
+## 📁 Organização do repositório
 
-**Suéling Nunrberg Meurer**  
-🔗 GitHub: [@sueling13](https://github.com/sueling13)
+📂 notebooks/ ┣ 📂 dados/ → Planilha original do IBGE (.xls) ┣ 📜 escolaridade_superior-checkpoint.ipynb ┣ 📜 Comparativo_sem_instrucao_2023x2016-checkpoint.ipynb ┣ 📊 comparativo_sem_instrucao.png ┗ 📊 escolaridade_superior.png
+
 
 ---
+
+## ✨ Contribuições e ideias
+
+Sinta-se à vontade para sugerir melhorias ou propor novos tipos de análise com os dados educacionais!
+
+---
+
+## 🔗 Fonte oficial dos dados
+
+- [Tabela 4.9 - IBGE - Nível de Instrução](https://sidra.ibge.gov.br/Tabela/2904)
+
+---
+
+Feito com 💙 por [sueling13](https://github.com/sueling13)
